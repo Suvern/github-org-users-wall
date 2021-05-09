@@ -1,0 +1,16 @@
+{
+    "name": "github-users-wall",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "wangzhaojun",
+    "license": "MIT",
+    "scripts": {
+        "start": "babel-node index.js"
+    },
+    "dependencies": {
+        "@octokit/rest": "^18.1.0"
+    },
+    "devDependencies": {
+        "babel-plugin-transform-async-to-generator": "^6.24.1"
+    }
+}
